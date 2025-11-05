@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Josh Piquero</span>,</h1>
+                        <h2>A <span class="proffesions">BSIT Student</span></h2>
+                        <p class="heroline">Currently 3rd year in Bachelor Of Science in Information Technology.</p>
+                        <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="assets/image.png" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Joshua , <span class=","> A BSIT Student</span></h3>
+                    <p class="aboutme-deatils">
+Hi, I'm Josh — a passionate web developer currently pursuing my BS in Information Technology. I specialize in building clean, responsive websites using HTML, CSS, JavaScript, and React. I may be early in my journey, but I’m committed to delivering functional, user-friendly digital experiences that meet real-world needs.
+
+I thrive in collaborative environments and enjoy translating ideas into interactive web solutions. Whether it's a personal site or a small business landing page, I approach every project with creativity, attention to detail, and a drive to learn
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> 2+ years</li>
+                            <li><span>Country:</span> Philippines</li>
+                            <li><span>Avability:</span> 24/7 (anytime, anywhere) </li>
+                            <li><span>Satisfied Clients:</span>none</li>
+                            <li><span>Age</span>:23</li>
+                            <li><span>Phone</span>:909-759-8272</li>
+                            <li><span>Language Used:</span>HTML</li>
+                            <li><span>Degree</span>:N/A</li>
+                            <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:65%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Database(xampp)</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>React</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:70%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+
+
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>UI/UX Design - Figma, Canva(for layout and mockups).</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Basic websites using HTML, CSS, JS, and React.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>SEO</h2>
+                        <p>Applies semantic HTML and mobile optimization for better search visibility.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Graphic Designer</h2>
+                        <p>Custom banners, icons, and visuals using Canva. Consistent and brand-ready.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Developer</h2>
+                        <p>Simple apps using JavaScript and React. Currently learning backend tools..</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>Database Admin</h2>
+                            <p>Basic data structuring and management using php+MySQL (Xampp) (learning phase).</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide gallery">
+
+
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="assets/image1.png" alt=""></div>
+                    <div class="project"><img src="assets/image2.png" alt=""></div>
+                    <div class="project"><img src="assets/image3.png" alt=""></div>
+                    <div class="project"><img src="assets/image4.png" alt=""></div>
+                    <div class="project"><img src="assets/image5.png" alt=""></div>
+                    <div class="project"><img src="assets/image6.png" alt=""></div>
+                </div>
+
+
+                <div class="swiper-slide contactMe">
+
+
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+            
+                        <h3>Mobile No</h3>
+                        <p></p>
+                        <p></p>
+                        <p></p>909-759-8272</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Acacia St South Daang Hari Taguig City</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>jcpiquero@paterostechnologicalcollege.edu.ph</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-globe"></i>
+                        <h3>Website</h3>
+                        <p>ongoing</p>
+                    </div>
+                    <form>
+
+                        <h2>Send Me A Message <div class="SocialLinks">
+                                <i class="fa-brands fa-codepen"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                    <footer>
+                        <li>Copyright.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
